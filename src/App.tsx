@@ -1,12 +1,10 @@
-import { Sobre } from './Sobre'
-import { Projetos } from './Projetos'
+import Sobre from './Sobre'
 
 function App() {
   return (
     <div>
-      <h1 style={{textAlign: 'center'}}>Meu Portfólio React</h1>
+      <h1>Teste</h1>
       <Sobre />
-      <Projetos />
     </div>
   )
 }
